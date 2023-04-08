@@ -1,0 +1,22 @@
+{
+  "name": "aws-lambda-mmbc-email",
+  "version": "1.0.0",
+  "description": "Email services for MMBC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mmbc",
+    "email"
+  ],
+  "author": "2code.com.mx",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^12.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.1"
+  }
+}

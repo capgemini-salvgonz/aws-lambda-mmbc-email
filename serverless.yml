@@ -1,0 +1,17 @@
+service: aws-lambda-mmbc-email
+frameworkVersion: '3'
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  region: us-west-1
+  runtime: nodejs18.x
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: post
